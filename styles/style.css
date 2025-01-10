@@ -15,6 +15,10 @@
     "wdth" 100;
     
 }
+
+.secondary-bg-color{
+    background-color:#C6E4D6 ;
+}
 body{
     background-color: #F5F5F5;
 }
@@ -92,7 +96,7 @@ body{
 }
 .piller-container{
     display: flex;
-    gap: 25;
+    gap: 25px;
     margin-left: 160px;
     margin-right: 160px;
     
@@ -132,4 +136,100 @@ body{
     font-weight: 400;
     color:rgba(14, 14, 14, 0.7) ;
     padding: 12px 24px 24px 24px;
+}
+/* vision container style */
+.vision-card-container{
+    display: flex;
+    gap: 24px;
+    
+}
+.vision-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 80px;
+    margin-left: 160px;
+    margin-bottom: 24px;
+
+}
+.vision-description{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.7);
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 32px;
+   
+
+}
+.vision-card-content-1{
+  
+    background-color:rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    margin-left: 160px;
+   
+   
+
+}
+.vision-card-content-2{
+ 
+  background-color: #C6E4D6;
+    border-radius: 16px;
+    
+    
+   
+}
+.vision-card-content-3{
+   
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    margin-right: 160px;
+    
+}
+
+.vision-card-img{
+   padding: 33px;
+
+}
+.vision-card-heading{
+    padding: 24px 32px;
+}
+.vision-card-description{
+    padding: 12px 32px;
+}
+.vision-card-btn-1{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #5490F5;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-left: 32px;
+    margin-bottom:32px ;
+    border: none;
+}
+.vision-card-btn-2{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #09A15C;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-left: 32px;
+    margin-bottom:32px ;
+    border: none;
+}
+.vision-card-btn-3{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #FFC239;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-left: 32px;
+    margin-bottom:32px ;
+    border: none;
 }
