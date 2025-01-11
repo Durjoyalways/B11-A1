@@ -328,6 +328,7 @@ body{
    margin-top: 48px;
    margin-right: 32px;
    margin-left: 48px;
+   margin-bottom: 48px;
 }
 .news-content-heading{
     font-weight: bold;
@@ -406,7 +407,7 @@ body{
    margin-top: 48px;
    margin-right: 48px;
    margin-left: 32px;
-
+margin-bottom: 48px;
   
 }
 .spacing-2{
