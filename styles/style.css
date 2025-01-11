@@ -562,6 +562,8 @@ body{
     border: none;
      margin-left: 260px;   
     margin-top: 24px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 
 }
 .newsletter-btn{
@@ -573,6 +575,9 @@ body{
     border: none;
     margin-right: 260px;
     margin-top: 24px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
 
 }
 .newsletter-footer{
@@ -581,4 +586,31 @@ body{
     font-weight: 400;
     color:rgba(14, 14, 14, 0.7) ;
     text-align: center;
+}
+/* footer style */
+.last-footer-heading{
+    margin-top: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    color:rgba(14, 14, 14, 1) ;
+    text-align: center;
+    margin-bottom: 32px;
+
+}
+hr{
+    width: 1112px;
+    margin-left: 400px;
+    margin-right: 240px;
+    margin-bottom: 32px;
+
+   
+}
+.footer-container{
+    text-align: center;
+   
+}
+.footer-img{
+    margin-right: 23px;
+    background-color:rgba(255, 255, 255, 1) ;
+    
 }
