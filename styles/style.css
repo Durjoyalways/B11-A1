@@ -81,6 +81,8 @@ body{
     font-weight: 600;
     font-size: 18px;
     margin-top: 24px;
+    border: none;
+    border-radius: 8px;
 }
 .banner-img{
     width: 474.03px;
@@ -189,10 +191,10 @@ body{
 
 .vision-card-img{
    padding: 33px;
-
+   
 }
 .vision-card-heading{
-    padding: 24px 32px;
+    padding: 0 32px;
     font-size: 20px;
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
@@ -238,4 +240,38 @@ body{
     margin-left: 32px;
     margin-bottom:32px ;
     border: none;
+}
+/* quote section style */
+.quote-section{
+    background-color: #FFFFFF;
+    padding: 48px 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin-top: 32px;
+    margin-left: 160px;
+    margin-right: 160px;
+    background-image: url(../image/quote-bg.png);
+    background-repeat: no-repeat;
+   background-position: 25px 24px;
+}
+.quote-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+
+}
+.quote-heading{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color:rgba(14, 14, 14, 0.8) ;
+    margin-bottom: 4px;
+}
+.quote-footer{
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 24px;
+    color:rgba(14, 14, 14, 0.6) ;
 }
