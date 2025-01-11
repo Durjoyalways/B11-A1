@@ -324,8 +324,10 @@ body{
 .satelite{
     width: 480px;
     height: 306px;
-   border-radius: 24px;
-    padding: 48px 0px 48px 48px;
+  border-radius:24px ;
+   margin-top: 48px;
+   margin-right: 48px;
+   margin-left: 32px;
 }
 .news-content-heading{
     font-weight: bold;
@@ -395,12 +397,21 @@ body{
    margin-bottom: 12px;
 
 }
+
 .satelite-2{
-    padding: 48px 48px 48px 32px;
-    border-radius: 24px;
+
+    width: 480px;
+    height: 306px;
+  border-radius:24px ;
+   margin-top: 48px;
+   margin-right: 48px;
+   margin-left: 32px;
+
+  
 }
 .spacing-2{
     margin-left: 12px;
+   
  }
  .aljazeera-2{
     margin-top: 12px;
